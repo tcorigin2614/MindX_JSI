@@ -333,3 +333,18 @@
     padding-left: 87px;
 }
 
+.cart-btn{
+    position: relative;
+    border: 1px solid black;
+}
+
+.cart-number{
+    position: absolute;    
+    top: 27px;
+    right: -11px;
+    display: block;
+    border-radius: 50%;
+    width: 23px;
+    height: 24px;
+    text-align: center;
+}
