@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Black+Ops+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* banner */
+.banner {
+    padding: 15px 120px;
+}
+
+.page {
+    cursor: pointer;
+    transition: 0.2s;
+    border-bottom: 3px solid transparent;
+}
+
+.page:hover {
+    position: relative;
+    color: red;
+    border-color: red;
+
+}
+
+.logo {
+    width: 140px;
+}
+
+.login:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}
+
+.signin:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    color: white;
+    color: red;
+
+}
+
+.justify-between {
+    padding: 0 10px;
+}
+
+/* pc product */
+
+.container {
+    width: 85%
+}
+
+/* pc image */
+.pcwhiteimg {
+    border-bottom: 1px solid black;
+    display: block;
+}
+
+.pcblackimg {
+    /* border-radius: 15px; */
+    display: block;
+}
+
+.slick-slide {
+    margin: 0 8px;
+}
+
+.multiple-items,.multiple-items-1 {
+    padding: 5px 100px;
+}
+
+.multiple{
+    padding: 6px 104px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 13px;
+    grid-row-gap: 20px;
+}
+.productpc {
+    border: 1px solid rgb(211, 84, 211);
+    /* border-radius: 15px; */
+}
+
+.productpc:hover {
+    border: 1px solid rgb(225 29 72);
+}
+
+.productpc:hover .cart {
+    bottom: 0;
+    transition: 0.3s;
+}
+
+.screen-img{
+    position: relative;
+    overflow: hidden;
+}
+.productname {
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+    height: 35px;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.productname2 {
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+    height: 35px;
+    font-size: 14px;
+    font-family: inherit;
+    margin-bottom: 30px;
+}
+
+.realprice {
+    color: #888;
+    text-decoration: line-through;
+    margin: 5px 20px;
+}
+
+.saleprice {
+    font-size: 20px;
+    color: #ed0000;
+    font-weight: 700;
+    margin: 5px 20px;
+}
+
+.pcheader {
+    margin: 10px 102px;
+    font-size: 22px;
+    background: #d7202c;
+    padding: 10px 49px;
+    color: #fff;
+    min-width: 86.5%;
+    line-height: 1.;
+    display: inline-block;
+    border-radius: 11px;
+}
+
+.cart {
+    position: absolute;
+    bottom: -44px;
+    width: 100%;
+    background-color: rgba(121, 117, 101, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    /* margin: 0 20px; */
+
+}
+
+.cart{
+    position: absolute;
+    bottom: -44px;
+    width: 100%;
+    background-color: rgba(121, 117, 101, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.cartbtn {
+    background-color: #252525;
+    color: white;
+    padding: 3px 9px;
+    font-size: 12px;
+}
+
+.cartlink {
+    font-style: italic;
+    font-size: 14px;
+    color: #fff;
+
+}
+
+.slick-prev {
+    left: 60px;
+
+}
+
+.slick-next {
+    right: 60px;
+
+}
+
+.slick-prev::before,
+.slick-next::before {
+    color: red;
+}
+
+.cart-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+/* footer */
+.msfk {
+    justify-content: space-evenly;
+}
+
+.showroomhcm {
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.htch {
+    color: #428bca;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.htch:hover {
+    cursor: pointer;
+    color: #f45b4f;
+}
+
+.ttbh {
+    color: #428bca;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ttbh:hover{
+    cursor: pointer;
+    color: #f45b4f;
+}
+
+.align {
+    padding-left: 0;
+}
+
+.ct {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 5px;
+
+}
+
+.cvt {
+    width: 390px;
+    padding-left: 61px;
+
+}
+
+.cvtt {
+    padding-left: 64px;
+
+}
+
+.email {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.td {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.cs {
+    font-size: 16px;
+    color: #0655a6;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fanpage {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.dc {
+    font-size: 14px;
+}
+
+.vertify{
+    margin-top: 20px;
+}
+
+.productlinkfooter{
+    margin-top: 20px;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+.information{
+    color: #428bca;
+    text-decoration: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.information:hover{
+    color: #f45b4f;
+}
+.foter{
+    padding: 40px;
+    padding-left: 87px;
+}
+

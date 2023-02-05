@@ -1,0 +1,507 @@
+[
+    {
+        "id": 1,
+        "type": 1,
+        "name": "GVN Phantom Plus i4080",
+        "img": "https://product.hstatic.net/1000026716/product/01_5ee5d2f5004e48909ca69fa377005e4f_large.jpg",
+        "saleprice": "13,780,000₫",
+        "originprice":"12,990,000₫",
+        "quantity": 10
+    },
+    {
+        "id": 2,
+        "type": 1,
+        "name": "GVN Minion i380",
+        "img": "https://product.hstatic.net/1000026716/product/06_a8b6e4068b3044fa90e4c6b8132f57f9_large.jpg",
+        "saleprice": "10,380,000đ",
+        "originprice":"9,990,000đ",
+        "quantity": 5
+    },
+    {
+        "id": 3,
+        "type": 1,
+        "name": "GVN Viper i2060",
+        "img": "https://product.hstatic.net/1000026716/product/1_e5c97edf405046eb96fc7896e3c56087_large.jpg",
+        "saleprice": "22,720,000đ",
+        "originprice":"21,190,000đ",
+        "quantity": 7
+    },
+    {
+        "id": 4,
+        "type": 1,
+        "name": "GVN ProArt Plus 5 a3070",
+        "img": "https://product.hstatic.net/1000026716/product/02_392d138953ac4a5d9429d6fedeba2397_large.jpg",
+        "saleprice": "50,310,000đ",
+        "originprice":"50,000,000đ",
+        "quantity": 2
+    },
+    {
+        "id": 5,
+        "type": 1,
+        "name": "GVN Phantom Plus i3070 WHITE",
+        "img": "https://product.hstatic.net/1000026716/product/gvn_phantom_plus_i3070_white_44600cb6daea4e3dbd48f24eb8c700c8_large.jpg",
+        "saleprice": "51,920,000đ",
+        "originprice":"51,000,000đ",
+        "quantity": 4
+    },
+    {
+        "id": 6,
+        "type": 1,
+        "name": "GVN Viper i1650",
+        "img": "https://product.hstatic.net/1000026716/product/viper_i1650_50ab78f3dd4d4159b6276c7870e16e18_large.jpg",
+        "saleprice": "18,420,000đ",
+        "originprice":"17,490,000đ",
+        "quantity": 8
+    },
+    {
+        "id": 7,
+        "type": 1,
+        "name": "GVN Phantom Plus i3070Ti",
+        "img": "https://product.hstatic.net/1000026716/product/02_1e2c2c9c90f54de2a9d8f1a30cc18286_large.jpg",
+        "saleprice": "66,470,000₫",
+        "originprice":"66,000,000₫",
+        "quantity": 9
+    },
+    {
+        "id": 8,
+        "type": 1,
+        "name": "GVN Minion i3050",
+        "img": "https://product.hstatic.net/1000026716/product/minion_i3050_ee668789d6ae451481ed707e47040e03_large.jpg",
+        "saleprice": "17,220,000₫",
+        "originprice":"16,390,000₫",
+        "quantity": 5
+    },
+    {
+        "id": 9,
+        "type": 1,
+        "name": "GVN Titan Plus i4090",
+        "img": "https://product.hstatic.net/1000026716/product/04_d30f074a18494fd9b08be05ed4dc55aa_large.jpg",
+        "saleprice": "115,230,000₫",
+        "originprice":"115,000,000₫",
+        "quantity": 2
+    },
+    {
+        "id": 10,
+        "type": 1,
+        "name": "titan plus i3090ti",
+        "img": "https://product.hstatic.net/1000026716/product/01_5e53b167ad664f5a83c1ff302c637458_large.jpg",
+        "saleprice": "92,860,000₫",
+        "originprice":"90,000,000₫",
+        "quantity": 7
+    },
+    {
+        "id": 11,
+        "type": 1,
+        "name": "GVN Viper Plus i3060",
+        "img": "https://product.hstatic.net/1000026716/product/2_3671556ea6394514a50c06138e875901_large.jpg",
+        "saleprice": "28,420,000₫",
+        "originprice":"26,990,000₫",
+        "quantity": 0
+    },
+    {
+        "id": 12,
+        "type": 1,
+        "name": "GVN Viper Plus i3060 - White Edition",
+        "img": "https://product.hstatic.net/1000026716/product/viper_plus_i3060_91f0bd63afd94eba9ad0e3222545e59a_large.png",
+        "saleprice": "30,880,000₫",
+        "originprice":"30,000,000₫",
+        "quantity": 3
+    },
+    {
+        "id": 13,
+        "type": 1,
+        "name": "GVN Viper i3050",
+        "img": "https://product.hstatic.net/1000026716/product/2_1649a388894f4ddabf6880f6a73c710f_large.jpg",
+        "saleprice": "23,910,000₫",
+        "originprice":"22,890,000₫",
+        "quantity": 5
+    },
+
+    {
+        "id": 1,
+        "type": 2,
+        "name": "Laptop Lenovo IdeaPad Gaming 3 15IAH7 82S9006YVN",
+        "img": "https://product.hstatic.net/1000026716/product/82s9006yvn_8f3562fe69994a24972ac7987f84157f_large.png",
+        "saleprice": "26,990,000₫",
+        "originprice":"21,990,000₫",
+        "quantity": 0
+    },
+    {
+        "id": 2,
+        "type": 2,
+        "name": "Laptop Gaming Acer Aspire 7 A715 42G R05G",
+        "img": "https://product.hstatic.net/1000026716/product/laptop_gaming_acer_aspire_7_a715_42g_r05g_f9b4034f328d4211b9ffe51f7b1c4cbf_large.jpg",
+        "saleprice": "20,990,000₫",
+        "originprice":"16,990,000₫",
+        "quantity": 9
+    },
+    {
+        "id": 3,
+        "type": 2,
+        "name": "Laptop gaming MSI Katana GF66 11UC 224VN",
+        "img": "https://product.hstatic.net/1000026716/product/224vn_b018c06c297e4e8cb3de61348dd497a9_large.png",
+        "saleprice": "29,990,000₫",
+        "originprice":"21,490,000₫",
+        "quantity": 8
+    },
+    {
+        "id": 4,
+        "type": 2,
+        "name": "Laptop gaming Acer Aspire 7 A715 43G R8GA",
+        "img": "https://product.hstatic.net/1000026716/product/r8ga_b14c527c210b4c84972af49fd18c225c_large.png",
+        "saleprice": "22,990,000₫",
+        "originprice":"18,790,000₫",
+        "quantity": 4
+    },
+    {
+        "id": 5,
+        "type": 2,
+        "name": "Laptop gaming ASUS TUF F15 FX507ZE HN093W",
+        "img": "https://product.hstatic.net/1000026716/product/hn093w_65b4695ac2df4454ad66ec5b2a22c594_large.png",
+        "saleprice": "33,490,000₫",
+        "originprice":"28,490,000₫",
+        "quantity": 3
+    },
+    {
+        "id": 6,
+        "type": 2,
+        "name": "Laptop gaming Acer Nitro 5 Eagle AN515 57 54MV",
+        "img": "https://product.hstatic.net/1000026716/product/54mv_92471e86b1c8419d98674dd9e90c7d78_large.png",
+        "saleprice": "25,990,000₫",
+        "originprice":"21,390,000₫",
+        "quantity": 1
+    },
+    {
+        "id": 7,
+        "type": 2,
+        "name": "Laptop gaming Acer Nitro 5 Tiger AN515 58 773Y",
+        "img": "https://product.hstatic.net/1000026716/product/773y_78992516a6f941e581bbf7d5aa8eaf2c_large.png",
+        "saleprice": "32,990,000₫",
+        "originprice":"27,790,000₫",
+        "quantity": 7
+    },
+    {
+        "id": 8,
+        "type": 2,
+        "name": "Laptop gaming ASUS ROG Strix G15 G513IE HN246W",
+        "img": "https://product.hstatic.net/1000026716/product/hn246w_cc11e20b64094ba1b95ac77ec5a98284_large.png",
+        "saleprice": "26,990,000₫",
+        "originprice":"22,790,000₫",
+        "quantity": 6
+    },
+    {
+        "id": 9,
+        "type": 2,
+        "name": "Laptop gaming MSI GF63 Thin 11UD 473VN",
+        "img": "https://product.hstatic.net/1000026716/product/473vn_e1a96d1712b24d26b95b1d1e637a6c9c_large.png",
+        "saleprice": "22,990,000₫",
+        "originprice":"18,490,000₫",
+        "quantity": 1
+    },
+    {
+        "id": 10,
+        "type": 2,
+        "name": "Laptop gaming Gigabyte G5 GE 51VN213SH",
+        "img": "https://product.hstatic.net/1000026716/product/g5-ge-51vn213sh_b2e7eef249ed4e4cb94ba05f61eb9dbf_large.png",
+        "saleprice": "26,390,000₫",
+        "originprice":"22,990,000₫",
+        "quantity": 2
+    },
+    {
+        "id": 11,
+        "type": 2,
+        "name": "Laptop Gaming HP VICTUS 16 d0293TX 5Z9R4PA",
+        "img": "https://product.hstatic.net/1000026716/product/5z9r4pa-fix_f3b0f5f6c9c94b6c89782f8fd4b674a8_large.png",
+        "saleprice": "27,890,000₫",
+        "originprice":"20,990,000₫",
+        "quantity": 6
+    },
+    {
+        "id": 12,
+        "type": 2,
+        "name": "Laptop gaming GIGABYTE G5 KD 52VN123SO",
+        "img": "https://product.hstatic.net/1000026716/product/g5-kd-52vn123so_acc7171182b9481597a7aa05c839e45b_large.png",
+        "saleprice": "26,990,000₫",
+        "originprice":"23,990,000₫",
+        "quantity": 8
+    },
+    {
+        "id": 13,
+        "type": 2,
+        "name": "Laptop gaming ASUS TUF Dash F15 FX517ZE HN888W",
+        "img": "https://product.hstatic.net/1000026716/product/hn888w_6ddee19fdc6d46e39ba774e22a57e423_large.png",
+        "saleprice": "31,990,000₫",
+        "originprice":"26,990,000₫",
+        "quantity": 0
+    },
+    {
+        "id": 14,
+        "type": 2,
+        "name": "Laptop gaming ASUS TUF A15 FA506IHRB HN080W",
+        "img": "https://product.hstatic.net/1000026716/product/gearvn-laptop-gaming-asus-tuf-a15-fa506ihrb-hn080w-1_0986bab890c24900a834168da1c86abf_large.png",
+        "saleprice": "18,990,000₫",
+        "originprice":"16,990,000₫",
+        "quantity": 2
+    },
+    {
+        "id": 15,
+        "type": 2,
+        "name": "Laptop gaming Asus TUF Dash F15 FX517ZC HN077W",
+        "img": "https://product.hstatic.net/1000026716/product/3050_c761b4963d574e89829e45671fe80f32_large.png",
+        "saleprice": "28,990,000₫",
+        "originprice":"24,390,000₫",
+        "quantity": 9
+    },
+    {
+        "id": 16,
+        "type": 2,
+        "name": "Laptop Acer Nitro 5 Tiger AN515 58 769J",
+        "img": "https://product.hstatic.net/1000026716/product/52sp_5931dfd2908c429e969dd6dd550c72d0_large.png",
+        "saleprice": "30,990,000₫",
+        "originprice":"27,290,000₫",
+        "quantity": 8
+    },
+    {
+        "id": 17,
+        "type": 2,
+        "name": "Laptop gaming Acer Nitro 5 Tiger AN515 58 52SP",
+        "img": "https://product.hstatic.net/1000026716/product/52sp_292819af0d6a4682886ea1ace70fcc03_large.png",
+        "saleprice": "27,990,000₫",
+        "originprice":"24,990,000₫",
+        "quantity": 1
+    },
+    {
+        "id": 18,
+        "type": 2,
+        "name": "Laptop Gaming Asus ROG Strix G15 G513IH HN015W",
+        "img": "https://product.hstatic.net/1000026716/product/g513_b4baf05245814c1cb7554349231e1d7f_large.pn",
+        "saleprice": "22,990,000₫",
+        "originprice":"19,990,000₫",
+        "quantity": 3
+    },
+    {
+        "id": 19,
+        "type": 2,
+        "name": "Laptop ASUS TUF Gaming F15 FX506HC HN144W",
+        "img": "https://product.hstatic.net/1000026716/product/fx506hc-hn144w_b0940ba8f02549b1b55a2da2dc5d82e7_large.png",
+        "saleprice": "25,990,000₫",
+        "originprice":"20,990,000₫",
+        "quantity": 0
+    },
+    {
+        "id": 20,
+        "type": 2,
+        "name": "Laptop Gaming Asus ROG Strix G15 G513RC HN038W",
+        "img": "https://product.hstatic.net/1000026716/product/laptop-gaming-asus-rog-strix-g15-g513rc-hn038w_e986b030b4de4dd88b51105c08a4a299_large.png",
+        "saleprice": "31,990,000₫",
+        "originprice":"27,490,000₫",
+        "quantity": 9
+    },
+    {
+        "id": 1,
+        "type": 3,
+        "name": "Màn hình AOC Q24G2 24 IPS 2K 165Hz G-Sync chuyên game",
+        "img": "//product.hstatic.net/1000026716/product/aoc_q24g2_gearvn_759f921289c0423182ebf61fc6ff79f2_large.jpg",
+        "saleprice": "x",
+        "originprice":"5,990,000đ",
+        "quantity": 9
+    },
+    {
+        "id": 2,
+        "type": 3,
+        "name": "Màn hình Viewsonic VX2416 24 IPS 100Hz viền mỏng",
+        "img": "//product.hstatic.net/1000026716/product/viewsonic_vx2416_gearvn_13618faac58646af8b84af99b6995cf7_large.jpg",
+        "saleprice": "x",
+        "originprice":"3,190,000₫",
+        "quantity": 9
+    },
+    {
+        "id": 3,
+        "type": 3,
+        "name": "Màn hình Asus TUF GAMING VG249Q1A 24 IPS 165Hz Gsync compatible chuyên game",
+        "img": "http://product.hstatic.net/1000333506/product/e425ebc40739fc163c018199f69_aa49ef0e78964eee8eb4521fc0a0a1f1_large__1__80224c40484e4bb2a4a1f6c738d210c2_grande.png",
+        "saleprice": "6,390,000₫",
+        "originprice":"4,090,000₫",
+        "quantity": 2
+    },
+    {
+        "id": 4,
+        "type": 3,
+        "name": "Màn hình ViewSonic VX2405-P-MHD 24 IPS 144Hz 1ms chuyên game",
+        "img": "//product.hstatic.net/1000026716/product/vx2405-p-mhd-_5_.png_a1ab8969ffd2406ea46418c2ee07f8ee_large.jpg",
+        "saleprice": "5,690,000₫",
+        "originprice":"3,790,000₫",
+        "quantity": 0
+    },    
+    {
+        "id": 5,
+        "type": 3,
+        "name": "Màn hình ASUS VZ24EHE 24 IPS 75Hz viền mỏng",
+        "img": "//product.hstatic.net/1000026716/product/-asus-vz24ehe-24-ips-75hz-vien-mong-1_2242cea546824c28938d4170415ac511_4f2b3d1df7fb455e80b74a8107b2f3cf_large.jpg",
+        "saleprice": "4,490,000₫",
+        "originprice":"3,090,000₫",
+        "quantity": 7
+    },
+    {
+        "id": 6,
+        "type": 3,
+        "name": "Màn hình GIGABYTE G24F 24 IPS 165Hz chuyên game",
+        "img": "//product.hstatic.net/1000026716/product/gigabyte_g24f_gearvn_32c459bb9b7_6e61bb5ce2754618bc3a20992d463f91_2ff413a7c7474d4996d7701e92362fc5_large.jpg",
+        "saleprice": "5,990,000₫",
+        "originprice":"3,900,000₫",
+        "quantity": 4
+    },
+    {
+        "id": 7,
+        "type": 3,
+        "name": "Màn hình ViewSonic VA2432-H 24 IPS 75Hz viền mỏng",
+        "img": "//product.hstatic.net/1000026716/product/1-ec_b59555789944400e9cb252fb688bbc28_2b280f217fa7494da899657d28683e86_large.jpg",
+        "saleprice": "4,550,000₫",
+        "originprice":"2,590,000₫",
+        "quantity": 8
+    },
+    {
+        "id": 8,
+        "type": 3,
+        "name": "Màn hình ViewSonic VA2732-H 27 IPS 75Hz viền mỏng",
+        "img": "//product.hstatic.net/1000026716/product/va2732-mh_f01_pc_h_cf324ffb0be84db4b7a0a78a56264cb5_145cf02bb38445f1987bc18a72d15e17_large.jpg",
+        "saleprice": "4,590,000₫",
+        "originprice":"3,490,000₫",
+        "quantity": 1
+    },
+    {
+        "id": 9,
+        "type": 3,
+        "name": "Màn hình AOC 27B1H 27 IPS Ultraslim chuyên game",
+        "img": "//product.hstatic.net/1000026716/product/aoc-27b1h-27-ips-ultraslim-chuyen-game_b24f9599731c42df805705a5ef2c51a5_large.gif",
+        "saleprice": "4,490,000₫",
+        "originprice":"3,490,000₫",
+        "quantity": 2
+    },
+    {
+        "id": 10,
+        "type": 3,
+        "name": "Màn hình ViewSonic VX2476-SMHD 24 IPS 75Hz loa kép 3W",
+        "img": "https://product.hstatic.net/1000026716/product/1-ec_b8bb403946e3484b9bc4b3b03d1c5394_358f6d96182f4c51b3407087c5154c79_large.jpg",
+        "saleprice": "4,590,000₫",
+        "originprice":"3,190,000₫",
+        "quantity": 6
+    },
+    {
+        "id": 11,
+        "type": 3,
+        "name": "Màn hình LG 24GN650-B 24 IPS 144Hz HDR10 Freesync chuyên game",
+        "img": "//product.hstatic.net/1000026716/product/lg_24gn650_gearvn_96cc772c8baf4d928eea9abeaeb2f812_6b5fff94ac3240fc9acb9a23c5a80103_large.jpg",
+        "saleprice": "6,090,000₫",
+        "originprice":"4,090,000₫",
+        "quantity": 9
+    },
+    {
+        "id": 12,
+        "type": 3,
+        "name": "Màn hình ACER KA272 27 IPS 75Hz",
+        "img": "https://product.hstatic.net/1000026716/product/acer_ka272_gearvn_a2dfcd6e24fa4dbcac9dd9f057a18324_12b1956f5adf4b1ebb8ab0248b31bcad_large.jpg",
+        "saleprice": "4,690,000₫",
+        "originprice":"3,550,000₫",
+        "quantity": 4
+    },
+    {
+        "id": 13,
+        "type": 3,
+        "name": "Màn hình Philips 242M8 24 IPS 144Hz Freesync chuyên game",
+        "img": "https://product.hstatic.net/1000026716/product/philips_242m8_gearvn_eef3d9ea2c5145ec97cbf55675993ad2_4b377c5d22ab4bef8f982bfcd7ed398d_large.jpg",
+        "saleprice": "4,890,000₫",
+        "originprice":"3,350,000₫",
+        "quantity": 7
+    },
+    {
+        "id": 14,
+        "type": 3,
+        "name": "Màn hình Dell E2722H 27 IPS",
+        "img": "https://product.hstatic.net/1000026716/product/dell_e2722h_gearvn_a9938cc0f1d54c5ea764c57a949aed62_large.jpg",
+        "saleprice": "5,990,000₫",
+        "originprice":"4,550,000₫",
+        "quantity": 1
+    },
+    {
+        "id": 15,
+        "type": 3,
+        "name": "Màn hình Lenovo Q24i-20 24 IPS 75Hz loa kép 3W",
+        "img": "https://product.hstatic.net/1000026716/product/thumb-xa-kho_993537c630b84b919e435ac84aa2c0b4_large.gif" ,
+        "saleprice":"4,690,000₫" ,
+        "originprice": "3,750,000₫",
+        "quantity": 3
+    },
+    {
+        "id": 16,
+        "type": 3,
+        "name": "Màn hình Lenovo L24i-30 24 IPS 75Hz Freesync",
+        "img": "https://product.hstatic.net/1000026716/product/lenovo_l24i-30_gearvn_60089c92d77f46b0adada686a7cb68b6_large.jpg" ,
+        "saleprice":"4,190,000₫" ,
+        "originprice": "3,890,000₫",
+        "quantity": 5
+    },
+    {
+        "id": 17,
+        "type": 3,
+        "name": "Màn hình LG 27MP400-B 27 IPS 75Hz FreeSync",
+        "img": "https://product.hstatic.net/1000026716/product/lg_27mp400_gearvn_80a6534fea00472ea7d87e1a4fc340d5_large.jpg" ,
+        "saleprice":"4,690,000₫" ,
+        "originprice": "3,200,000₫",
+        "quantity": 2
+    },
+    {
+        "id": 18,
+        "type": 3,
+        "name": "Màn hình LG 27MP60G-B 27 IPS 75Hz FreeSync chuyên game",                                    
+        "img":  "https://product.hstatic.net/1000026716/product/lg_27mp60g_gearvn_064e4f02ffdf4600b6c223ba2452c538_large.jpg" ,
+        "saleprice":"5,590,000₫ " ,
+        "originprice": "3,950,000₫",
+        "quantity": 7
+    },
+    {
+        "id": 19,
+        "type": 3,
+        "name": "Màn hình Philips 271V8 27 IPS 75Hz",
+        "img": "https://product.hstatic.net/1000026716/product/philips_271v8_gearvn_f69519be33cf40479801488fce670343_large.jpg" ,
+        "saleprice":"4,350,000₫" ,
+        "originprice": "3,190,000₫",
+        "quantity": 0
+    },
+    {
+        "id": 20,
+        "type": 3,
+        "name": "Màn hình LG 24MP500-B 24 IPS 75Hz Freesync chuyên game",
+        "img": "https://product.hstatic.net/1000026716/product/lg_24mp500_gearvn_5e1ed00248bb4d3cbd2e85a516586aae_large.jpg" ,
+        "saleprice":"4,050,000₫" ,
+        "originprice": "3,900,000₫",
+        "quantity": 4
+    },
+    {
+        "id": 21,
+        "type": 3,
+        "name": "Màn hình LG 24MP60G-B 24 IPS 75Hz Freesync chuyên game",
+        "img": "https://product.hstatic.net/1000026716/product/lg_24mp60g-b_gearvn_06227b753f854f498977747f75c4666a_large.jpg" ,
+        "saleprice":"4,590,000₫" ,
+        "originprice": "3,490,000₫",
+        "quantity": 2
+    },
+    {
+        "id": 22,
+        "type": 3,
+        "name": "Màn hình ACER VG240Y 24 IPS 75Hz FreeSync chuyên game",
+        "img": "https://product.hstatic.net/1000026716/product/acer_vg240y_gearvn_9a3d076e6f9a48b78885f3f81ee279c0_large.jpg" ,
+        "saleprice":"4,490,000₫" ,
+        "originprice": "3,490,000₫",
+        "quantity": 5
+    },
+    {
+        "id": 23,
+        "type": 3,
+        "name": "Màn hình Acer VG240Y D 24 IPS 75Hz Tích Hợp Webcam FHD",
+        "img": "https://product.hstatic.net/1000026716/product/acer_vg240y_d_gearvn_7f1851eaa378446693cd1d7f49f53d44_large.jpg" ,
+        "saleprice":"4,990,000₫" ,
+        "originprice": "4,590,000₫",
+        "quantity": 8
+    }
+]
