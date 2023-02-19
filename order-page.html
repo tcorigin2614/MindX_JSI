@@ -18,6 +18,7 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.2/dist/sweetalert2.min.css">
     <link rel="stylesheet" href="./order-page.css">
     <title>Document</title>
 </head>
@@ -33,17 +34,16 @@
             <span style="--index: 2;">Your cart</span></h2>
         <ul class="flex flex-col divide-y divide-gray-700 item-list" id="product-form">
                 </ul>
-        <div class="space-y-1 text-right">
-            <p>Total amount:
-                <span class="font-semibold">357 €</span>
+        <div class="space-y-1 text-right text-black">
+            <p>Tổng Tiền:
+                <span class="font-semibold text-black" id="total-price">0 đ</span>
             </p>
         </div>
         <div class="flex justify-end space-x-4">
             <button type="button" class="px-6 py-2 border rounded-md dark:border-gray-800 bg-white text-black">
-                <a href="./index.html">Tiếp tục
-                <span class="sr-only sm:not-sr-only">mua sắm</span></a>
+                <a href="./index.html">Tiếp tục mua sắm</a>
             </button>
-            <button type="button" class="px-6 py-2 border rounded-md border-white bg text-white">
+            <button type="button" class="px-6 py-2 border rounded-md bg-red-600 text-white" onclick="purchase()">
                 <span>Thanh Toán</span>
             </button>
         </div>
@@ -71,6 +71,8 @@
     }
 </script>
 <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.2/dist/sweetalert2.all.min.js"></script>
+
 <script src="./order-page.js"></script>
 </body>
 
