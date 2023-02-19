@@ -7,6 +7,24 @@ const fetchData = async () => {
     return result;
 }
 
+
+const addToCart = (id) => {
+    console.log(id)
+    const products = JSON.parse(localStorage.getItem("hung_products"))
+    const productPicked = products.find(item => item.id === id)
+    const myCart = JSON.parse(localStorage.getItem("hung_cart"))
+    let newMyCart = []
+    if(myCart && myCart.length > 0){
+        newMyCart = [...myCart]
+        newMyCart.push(productPicked)
+    }
+    else {
+        newMyCart.push(productPicked)
+    }
+    document.getElementById('cart-amount').innerHTML = newMyCart.length
+    localStorage.setItem('hung_cart', JSON.stringify((newMyCart)))
+}
+
 const renderProduct = (products, id) => {
     // let htmlString = ''
     const htmlString = products.reduce((acc, item)=> acc + `
@@ -18,7 +36,7 @@ const renderProduct = (products, id) => {
                         alt=${item.name} />
                     <div class="cart">
                         <div class="cartlink">Click để xem chi tiết</div>
-                        <button class="cartbtn">Đặt hàng</button>
+                        <button class="cartbtn" onclick="addToCart(${item.id})">Add to cart</button>
                     </div>
                 </div>
             </a>
@@ -42,6 +60,7 @@ const renderProduct = (products, id) => {
         });
       });
 }
+
 const renderLaptop = (products, id) => {
     // let htmlString = ''
     const htmlString = products.reduce((acc, item)=> acc + `
@@ -53,7 +72,7 @@ const renderLaptop = (products, id) => {
                         alt=${item.name} />
                     <div class="cart">
                         <div class="cartlink">Click để xem chi tiết</div>
-                        <button class="cartbtn">Đặt hàng</button>
+                        <button class="cartbtn" onclick="addToCart(${item.id})">Add to Cart</button>
                     </div>
                 </div>
             </a>
@@ -88,7 +107,7 @@ const renderScreen = (products, id) => {
                     alt=${item.name}>
                 <div class="cart">
                     <div class="cartlink">Click để xem chi tiết</div>
-                    <button class="cartbtn">Đặt hàng</button>
+                    <button class="cartbtn" onclick="addToCart(${item.id})">Add to cart</button>
                 </div>
             </div>
         </a>
@@ -107,10 +126,16 @@ const renderScreen = (products, id) => {
 // chac chan api goi xong thi moi render ra giao dien
 fetchData().then((result)=> {
     const data = result.data
+    localStorage.setItem("hung_products", JSON.stringify(data))
     const productPc = data.filter((item) => item.type === 1)
     const productLaptop = data.filter((item) => item.type === 2)
     const productScreen = data.filter((item) => item.type === 3)
     console.log(productPc)
+    const myCart = JSON.parse(localStorage.getItem("hung_cart"))
+    if(myCart){
+        document.getElementById('cart-amount').innerHTML = myCart.length
+    }
+   
     renderProduct(productPc, 'product-pc')
     renderLaptop(productLaptop, 'product-latop')
     renderScreen(productScreen, 'product-screen')
