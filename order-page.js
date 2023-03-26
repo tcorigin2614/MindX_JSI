@@ -21,21 +21,21 @@ const checkoutHandler = () => {
 
 const calcTotalPrice = (arrItemPicked) => {
     return arrItemPicked.reduce((acc, item) => {
-        var priceNumber = parseInt((item.saleprice.split(',')[0].toString() +  item.saleprice.split(',')[1].toString() + '000'))
+        var priceNumber = parseInt((item.originprice.split(',')[0].toString() +  item.originprice.split(',')[1].toString() + '000'))
         return acc + priceNumber
     }, 0)
 }
-const removeProduct = (id) => {
-    const myCart = JSON.parse(localStorage.getItem("hung_cart"))
-    const copyMyCart = myCart.filter(item => item.id !== id)
-    localStorage.setItem('hung_cart', JSON.stringify((copyMyCart)))
-    renderproductPicked(copyMyCart, "product-form")
-    const totalPrice = calcTotalPrice(copyMyCart)
+const removeProduct = (idx) => {
+    const myCart = JSON.parse(localStorage.getItem("hung_cart")) || []
+    myCart.splice(idx,1)
+    localStorage.setItem('hung_cart', JSON.stringify((myCart)))
+    renderproductPicked(myCart, "product-form")
+    const totalPrice = calcTotalPrice(myCart)
     document.getElementById('total-price').innerHTML = totalPrice.toLocaleString('it-IT', {style : 'currency', currency : 'VND'});
 }
 const renderproductPicked = (products, id) => {
     if( products && products.length > 0 ){
-        const htmlString = products.reduce((acc, item)=> acc + `
+        const htmlString = products.reduce((acc, item, idx)=> acc + `
         <li class="flex flex-col py-6 sm:flex-row sm:justify-between product-cart border-none">
             <div class="flex w-full space-x-2 sm:space-x-4 border-product items-start">
                 <img class="flex-shrink-0 object-cover w-21 h-21 dark:border-transparent rounded outline-none sm:w-32 sm:h-32 dark:bg-gray-500" 
@@ -45,13 +45,13 @@ const renderproductPicked = (products, id) => {
                         <div class="space-y-1">
                             <h3 class="text-lg font-semibold leading-snug sm:pr-8 your-cartvsg">${item.name}</h3>
                             <div class="price-space">
-                            <p class="text-sm line-through your-cartss">Sale price: ${item.saleprice}</p>
-                            <p class="text-lg font-semibold your-cartsss">List price: ${item.originprice}</p>
+                            <p class="text-sm line-through your-cartss">Original price: ${item.saleprice}</p>
+                            <p class="text-lg font-semibold your-cartsss">Sale price: ${item.originprice}</p>
                             </div>
                         </div>
                     </div>
                     <div class="flex text-sm divide-x">
-                        <button type="button" class="flex px-5 py-4  space-x-1 bg-red-600 rounded-lg" onclick="removeProduct(${item.id})">
+                        <button type="button" class="flex px-5 py-4  space-x-1 bg-red-600 rounded-lg" onclick="removeProduct(${idx})">
                             <span class=" your-cart" style="color: white";>Remove</span>
                         </button>
                     </div>
@@ -71,20 +71,28 @@ const renderproductPicked = (products, id) => {
 const myCart = JSON.parse(localStorage.getItem("hung_cart"))
   renderproductPicked(myCart, "product-form")
 
-var totalPrice = calcTotalPrice(myCart)
+var totalPrice = calcTotalPrice(myCart || [])
 document.getElementById('total-price').innerHTML = totalPrice.toLocaleString('it-IT', {style : 'currency', currency : 'VND'});
 
 const renderEmptyCart = () => {
 
 }
-const purchase = () => {
-    Swal.fire({
-        title: 'Thanh toán thành công!',
-        icon: 'success',
-    })
-    localStorage.clear()
-    renderproductPicked([], 'product-form')
-    document.getElementById('total-price').innerHTML = `
-     0 đ
-    `
-}
+var purchase = () => {
+    if (localStorage.getItem("hung_cart")?.length > 0) {
+        Swal.fire({
+            title: 'Thanh toán thành công!',
+            icon: 'success',
+        })
+        localStorage.clear()
+        renderproductPicked([], 'product-form')
+        document.getElementById('total-price').innerHTML = `
+         0 đ
+         `
+    }
+    else {
+        Swal.fire({
+            title: 'Không thanh toán được!',
+            icon: 'error',
+        })
+    }
+};
